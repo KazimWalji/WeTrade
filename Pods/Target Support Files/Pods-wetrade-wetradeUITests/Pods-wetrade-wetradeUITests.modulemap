@@ -1,0 +1,6 @@
+framework module Pods_wetrade_wetradeUITests {
+  umbrella header "Pods-wetrade-wetradeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

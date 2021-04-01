@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A62E762C59C7DB77AAD0B7 /* Pods_wetrade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BA7BA1F5FBF345406E43EF /* Pods_wetrade.framework */; };
+		57259EB08FEE1A02B80C13C4 /* Pods_wetradeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36444A446808648ABD3D7BC8 /* Pods_wetradeTests.framework */; };
+		B34267ECCE84779962F70271 /* Pods_wetrade_wetradeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011A7D608C9C8669CF2F9D9F /* Pods_wetrade_wetradeUITests.framework */; };
+		D628A65C25E755D500A7368B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628A65B25E755D500A7368B /* User.swift */; };
+		D628D3DD25C638B8005DC0A1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628D3DC25C638B8005DC0A1 /* ProfileViewController.swift */; };
+		D67470D92593A8BE00167353 /* tableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67470D82593A8BE00167353 /* tableView.swift */; };
+		D67470DE2593AB0800167353 /* customCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67470DD2593AB0800167353 /* customCellTableViewCell.swift */; };
+		D68487A82590E3A400D3DF82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68487A72590E3A400D3DF82 /* AppDelegate.swift */; };
+		D68487AA2590E3A400D3DF82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68487A92590E3A400D3DF82 /* SceneDelegate.swift */; };
+		D68487AC2590E3A400D3DF82 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68487AB2590E3A400D3DF82 /* SignUpViewController.swift */; };
+		D68487B12590E3A500D3DF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68487B02590E3A500D3DF82 /* Assets.xcassets */; };
+		D68487B42590E3A500D3DF82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68487B22590E3A500D3DF82 /* LaunchScreen.storyboard */; };
+		D68487BF2590E3A500D3DF82 /* wetradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68487BE2590E3A500D3DF82 /* wetradeTests.swift */; };
+		D68487CA2590E3A500D3DF82 /* wetradeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68487C92590E3A500D3DF82 /* wetradeUITests.swift */; };
+		D68487DB2590E3BC00D3DF82 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D68487DA2590E3BC00D3DF82 /* GoogleService-Info.plist */; };
+		D6848A512591480E00D3DF82 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6848A502591480E00D3DF82 /* Login.swift */; };
+		D6EA6B0026160A080044EFAC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA6AFF26160A080044EFAC /* TabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D68487BB2590E3A500D3DF82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D684879C2590E3A400D3DF82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68487A32590E3A400D3DF82;
+			remoteInfo = wetrade;
+		};
+		D68487C62590E3A500D3DF82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D684879C2590E3A400D3DF82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68487A32590E3A400D3DF82;
+			remoteInfo = wetrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011A7D608C9C8669CF2F9D9F /* Pods_wetrade_wetradeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wetrade_wetradeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BA7BA1F5FBF345406E43EF /* Pods_wetrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wetrade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1807398C026110705C62F196 /* Pods-wetradeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wetradeTests.release.xcconfig"; path = "Target Support Files/Pods-wetradeTests/Pods-wetradeTests.release.xcconfig"; sourceTree = "<group>"; };
+		31C00A0F91C9CDBA86BB98C0 /* Pods-wetrade-wetradeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wetrade-wetradeUITests.debug.xcconfig"; path = "Target Support Files/Pods-wetrade-wetradeUITests/Pods-wetrade-wetradeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36444A446808648ABD3D7BC8 /* Pods_wetradeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wetradeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8320AC221B5EB75A5CA50B58 /* Pods-wetrade-wetradeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wetrade-wetradeUITests.release.xcconfig"; path = "Target Support Files/Pods-wetrade-wetradeUITests/Pods-wetrade-wetradeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A7D551737B5E6307A3FD4CBA /* Pods-wetradeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wetradeTests.debug.xcconfig"; path = "Target Support Files/Pods-wetradeTests/Pods-wetradeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3C97E2E2D103120549CC116 /* Pods-wetrade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wetrade.release.xcconfig"; path = "Target Support Files/Pods-wetrade/Pods-wetrade.release.xcconfig"; sourceTree = "<group>"; };
+		D628A65B25E755D500A7368B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D628D3DC25C638B8005DC0A1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D6641D382597B8D800B27DCD /* wetrade.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wetrade.entitlements; sourceTree = "<group>"; };
+		D67470D82593A8BE00167353 /* tableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableView.swift; sourceTree = "<group>"; };
+		D67470DD2593AB0800167353 /* customCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCellTableViewCell.swift; sourceTree = "<group>"; };
+		D68487A42590E3A400D3DF82 /* wetrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wetrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68487A72590E3A400D3DF82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D68487A92590E3A400D3DF82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D68487AB2590E3A400D3DF82 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D68487B02590E3A500D3DF82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D68487B32590E3A500D3DF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D68487B52590E3A500D3DF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68487BA2590E3A500D3DF82 /* wetradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wetradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68487BE2590E3A500D3DF82 /* wetradeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wetradeTests.swift; sourceTree = "<group>"; };
+		D68487C02590E3A500D3DF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68487C52590E3A500D3DF82 /* wetradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wetradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68487C92590E3A500D3DF82 /* wetradeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wetradeUITests.swift; sourceTree = "<group>"; };
+		D68487CB2590E3A500D3DF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68487DA2590E3BC00D3DF82 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6848A502591480E00D3DF82 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		D6EA6AFF26160A080044EFAC /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F9DE44E6B40433AC4880B99E /* Pods-wetrade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wetrade.debug.xcconfig"; path = "Target Support Files/Pods-wetrade/Pods-wetrade.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D68487A12590E3A400D3DF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A62E762C59C7DB77AAD0B7 /* Pods_wetrade.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68487B72590E3A500D3DF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57259EB08FEE1A02B80C13C4 /* Pods_wetradeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68487C22590E3A500D3DF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34267ECCE84779962F70271 /* Pods_wetrade_wetradeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		588D693C384573A44129E5AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08BA7BA1F5FBF345406E43EF /* Pods_wetrade.framework */,
+				011A7D608C9C8669CF2F9D9F /* Pods_wetrade_wetradeUITests.framework */,
+				36444A446808648ABD3D7BC8 /* Pods_wetradeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D684879B2590E3A400D3DF82 = {
+			isa = PBXGroup;
+			children = (
+				D68487A62590E3A400D3DF82 /* wetrade */,
+				D68487BD2590E3A500D3DF82 /* wetradeTests */,
+				D68487C82590E3A500D3DF82 /* wetradeUITests */,
+				D68487A52590E3A400D3DF82 /* Products */,
+				EF63B5C1014C443FE7997309 /* Pods */,
+				588D693C384573A44129E5AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D68487A52590E3A400D3DF82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D68487A42590E3A400D3DF82 /* wetrade.app */,
+				D68487BA2590E3A500D3DF82 /* wetradeTests.xctest */,
+				D68487C52590E3A500D3DF82 /* wetradeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D68487A62590E3A400D3DF82 /* wetrade */ = {
+			isa = PBXGroup;
+			children = (
+				D6641D382597B8D800B27DCD /* wetrade.entitlements */,
+				D68487A72590E3A400D3DF82 /* AppDelegate.swift */,
+				D68487A92590E3A400D3DF82 /* SceneDelegate.swift */,
+				D68487AB2590E3A400D3DF82 /* SignUpViewController.swift */,
+				D67470D82593A8BE00167353 /* tableView.swift */,
+				D628D3DC25C638B8005DC0A1 /* ProfileViewController.swift */,
+				D628A65B25E755D500A7368B /* User.swift */,
+				D67470DD2593AB0800167353 /* customCellTableViewCell.swift */,
+				D68487B02590E3A500D3DF82 /* Assets.xcassets */,
+				D68487B22590E3A500D3DF82 /* LaunchScreen.storyboard */,
+				D68487B52590E3A500D3DF82 /* Info.plist */,
+				D68487DA2590E3BC00D3DF82 /* GoogleService-Info.plist */,
+				D6848A502591480E00D3DF82 /* Login.swift */,
+				D6EA6AFF26160A080044EFAC /* TabBarViewController.swift */,
+			);
+			path = wetrade;
+			sourceTree = "<group>";
+		};
+		D68487BD2590E3A500D3DF82 /* wetradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D68487BE2590E3A500D3DF82 /* wetradeTests.swift */,
+				D68487C02590E3A500D3DF82 /* Info.plist */,
+			);
+			path = wetradeTests;
+			sourceTree = "<group>";
+		};
+		D68487C82590E3A500D3DF82 /* wetradeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D68487C92590E3A500D3DF82 /* wetradeUITests.swift */,
+				D68487CB2590E3A500D3DF82 /* Info.plist */,
+			);
+			path = wetradeUITests;
+			sourceTree = "<group>";
+		};
+		EF63B5C1014C443FE7997309 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9DE44E6B40433AC4880B99E /* Pods-wetrade.debug.xcconfig */,
+				D3C97E2E2D103120549CC116 /* Pods-wetrade.release.xcconfig */,
+				31C00A0F91C9CDBA86BB98C0 /* Pods-wetrade-wetradeUITests.debug.xcconfig */,
+				8320AC221B5EB75A5CA50B58 /* Pods-wetrade-wetradeUITests.release.xcconfig */,
+				A7D551737B5E6307A3FD4CBA /* Pods-wetradeTests.debug.xcconfig */,
+				1807398C026110705C62F196 /* Pods-wetradeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D68487A32590E3A400D3DF82 /* wetrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68487CE2590E3A500D3DF82 /* Build configuration list for PBXNativeTarget "wetrade" */;
+			buildPhases = (
+				BC8687CAA03FDDA9CFE8C93A /* [CP] Check Pods Manifest.lock */,
+				D68487A02590E3A400D3DF82 /* Sources */,
+				D68487A12590E3A400D3DF82 /* Frameworks */,
+				D68487A22590E3A400D3DF82 /* Resources */,
+				68D690AECC07783B0C769690 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wetrade;
+			packageProductDependencies = (
+			);
+			productName = wetrade;
+			productReference = D68487A42590E3A400D3DF82 /* wetrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D68487B92590E3A500D3DF82 /* wetradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68487D12590E3A500D3DF82 /* Build configuration list for PBXNativeTarget "wetradeTests" */;
+			buildPhases = (
+				72423B97D113B35B5C5915A8 /* [CP] Check Pods Manifest.lock */,
+				D68487B62590E3A500D3DF82 /* Sources */,
+				D68487B72590E3A500D3DF82 /* Frameworks */,
+				D68487B82590E3A500D3DF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68487BC2590E3A500D3DF82 /* PBXTargetDependency */,
+			);
+			name = wetradeTests;
+			productName = wetradeTests;
+			productReference = D68487BA2590E3A500D3DF82 /* wetradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D68487C42590E3A500D3DF82 /* wetradeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68487D42590E3A500D3DF82 /* Build configuration list for PBXNativeTarget "wetradeUITests" */;
+			buildPhases = (
+				90779ED212479F8F90C9C48A /* [CP] Check Pods Manifest.lock */,
+				D68487C12590E3A500D3DF82 /* Sources */,
+				D68487C22590E3A500D3DF82 /* Frameworks */,
+				D68487C32590E3A500D3DF82 /* Resources */,
+				3AE0E0A08D80DC743ED6FD21 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68487C72590E3A500D3DF82 /* PBXTargetDependency */,
+			);
+			name = wetradeUITests;
+			productName = wetradeUITests;
+			productReference = D68487C52590E3A500D3DF82 /* wetradeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D684879C2590E3A400D3DF82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D68487A32590E3A400D3DF82 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D68487B92590E3A500D3DF82 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D68487A32590E3A400D3DF82;
+					};
+					D68487C42590E3A500D3DF82 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D68487A32590E3A400D3DF82;
+					};
+				};
+			};
+			buildConfigurationList = D684879F2590E3A400D3DF82 /* Build configuration list for PBXProject "wetrade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D684879B2590E3A400D3DF82;
+			packageReferences = (
+			);
+			productRefGroup = D68487A52590E3A400D3DF82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D68487A32590E3A400D3DF82 /* wetrade */,
+				D68487B92590E3A500D3DF82 /* wetradeTests */,
+				D68487C42590E3A500D3DF82 /* wetradeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D68487A22590E3A400D3DF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68487B42590E3A500D3DF82 /* LaunchScreen.storyboard in Resources */,
+				D68487DB2590E3BC00D3DF82 /* GoogleService-Info.plist in Resources */,
+				D68487B12590E3A500D3DF82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68487B82590E3A500D3DF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68487C32590E3A500D3DF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE0E0A08D80DC743ED6FD21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wetrade-wetradeUITests/Pods-wetrade-wetradeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wetrade-wetradeUITests/Pods-wetrade-wetradeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wetrade-wetradeUITests/Pods-wetrade-wetradeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68D690AECC07783B0C769690 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wetrade/Pods-wetrade-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wetrade/Pods-wetrade-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wetrade/Pods-wetrade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72423B97D113B35B5C5915A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wetradeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90779ED212479F8F90C9C48A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wetrade-wetradeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC8687CAA03FDDA9CFE8C93A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wetrade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D68487A02590E3A400D3DF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6848A512591480E00D3DF82 /* Login.swift in Sources */,
+				D68487AC2590E3A400D3DF82 /* SignUpViewController.swift in Sources */,
+				D68487A82590E3A400D3DF82 /* AppDelegate.swift in Sources */,
+				D67470DE2593AB0800167353 /* customCellTableViewCell.swift in Sources */,
+				D628D3DD25C638B8005DC0A1 /* ProfileViewController.swift in Sources */,
+				D68487AA2590E3A400D3DF82 /* SceneDelegate.swift in Sources */,
+				D628A65C25E755D500A7368B /* User.swift in Sources */,
+				D67470D92593A8BE00167353 /* tableView.swift in Sources */,
+				D6EA6B0026160A080044EFAC /* TabBarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68487B62590E3A500D3DF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68487BF2590E3A500D3DF82 /* wetradeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68487C12590E3A500D3DF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68487CA2590E3A500D3DF82 /* wetradeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D68487BC2590E3A500D3DF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68487A32590E3A400D3DF82 /* wetrade */;
+			targetProxy = D68487BB2590E3A500D3DF82 /* PBXContainerItemProxy */;
+		};
+		D68487C72590E3A500D3DF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68487A32590E3A400D3DF82 /* wetrade */;
+			targetProxy = D68487C62590E3A500D3DF82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D68487B22590E3A500D3DF82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68487B32590E3A500D3DF82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D68487CC2590E3A500D3DF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D68487CD2590E3A500D3DF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D68487CF2590E3A500D3DF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DE44E6B40433AC4880B99E /* Pods-wetrade.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wetrade/wetrade.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NB9YQ82535;
+				INFOPLIST_FILE = wetrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ishaan.wetrade1239;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D68487D02590E3A500D3DF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C97E2E2D103120549CC116 /* Pods-wetrade.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wetrade/wetrade.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NB9YQ82535;
+				INFOPLIST_FILE = wetrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ishaan.wetrade1239;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D68487D22590E3A500D3DF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D551737B5E6307A3FD4CBA /* Pods-wetradeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wetradeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ishaan.wetradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wetrade.app/wetrade";
+			};
+			name = Debug;
+		};
+		D68487D32590E3A500D3DF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1807398C026110705C62F196 /* Pods-wetradeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wetradeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ishaan.wetradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wetrade.app/wetrade";
+			};
+			name = Release;
+		};
+		D68487D52590E3A500D3DF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C00A0F91C9CDBA86BB98C0 /* Pods-wetrade-wetradeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wetradeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ishaan.wetradeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wetrade;
+			};
+			name = Debug;
+		};
+		D68487D62590E3A500D3DF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8320AC221B5EB75A5CA50B58 /* Pods-wetrade-wetradeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wetradeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ishaan.wetradeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wetrade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D684879F2590E3A400D3DF82 /* Build configuration list for PBXProject "wetrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68487CC2590E3A500D3DF82 /* Debug */,
+				D68487CD2590E3A500D3DF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68487CE2590E3A500D3DF82 /* Build configuration list for PBXNativeTarget "wetrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68487CF2590E3A500D3DF82 /* Debug */,
+				D68487D02590E3A500D3DF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68487D12590E3A500D3DF82 /* Build configuration list for PBXNativeTarget "wetradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68487D22590E3A500D3DF82 /* Debug */,
+				D68487D32590E3A500D3DF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68487D42590E3A500D3DF82 /* Build configuration list for PBXNativeTarget "wetradeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68487D52590E3A500D3DF82 /* Debug */,
+				D68487D62590E3A500D3DF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D684879C2590E3A400D3DF82 /* Project object */;
+}
